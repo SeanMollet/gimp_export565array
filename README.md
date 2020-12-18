@@ -4,6 +4,8 @@ Gimp plugin for exporting image as an RGB565 array.
 This GIMP plugin was developed specifically for the [AWTRIX 2.0 LED Matrix Clock](https://blueforcer.de/awtrix-2-0/). The AWTRIX API allows sending bitmaps via JSON and MQTT to the LED matrix. The data needs to be in RGB565 integer format.
 This plugin takes care of the conversion directly from GIMP.
 
+The BE plugin exports C code in big endian format, usable with an assortment of LCD displays.
+
 It is based on the exportC.py plugin from David Muriuki Karibe [https://github.com/Muriukidavid/gimp-plugins]
 
 # How to use
